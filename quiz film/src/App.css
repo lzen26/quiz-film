@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: brightness(0.8);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 1100px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fc9f25;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f4f4f4;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.movie-card:hover{
+  background-color:  #fc9f25;
+}
+
+
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.movie-card img:hover{
+transform: scale(1.2);
+
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
